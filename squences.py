@@ -12,7 +12,7 @@ subjecct = input("enter the subject of teacher: ")
 
 que = input("enter the question: ")
 
-
+#lcel(langchain expression language)
 llm = ChatOllama(model = "llama3.2:latest")
 
 parser = StrOutputParser()
